@@ -14,9 +14,8 @@ namespace ConsoleControl
     /// <param name="sender">The sender.</param>
     /// <param name="args">The <see cref="ConsoleEventArgs"/> instance containing the event data.</param>
     public delegate void ConsoleEventHandler(object sender, ConsoleEventArgs args);
-
     /// <summary>
-    /// The Console Control allows you to embed a basic console in your application.
+    ///this application adds console to winforms and wpf application
     /// </summary>
     [ToolboxBitmap(typeof(Resfinder), "ConsoleControl.ConsoleControl.bmp")]
     public partial class ConsoleControl : UserControl
