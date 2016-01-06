@@ -31,5 +31,11 @@ namespace ConsoleControlAPI
         /// Generates a CTRL+BREAK signal.
         /// </summary>
         CTRL_BREAK_EVENT = 1
+        
+        /// <summary>
+        /// Genetates the Delete signal.
+        ///</summary>
+        CTRL_DELETE=1;
+        
     }
 }
